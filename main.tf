@@ -16,7 +16,6 @@ module "ec2_instance" {
 
   // Pass variables to EC2 module
   instance_type = var.instance_type
-  ami_id        = var.ami_id
   }
 
 
