@@ -13,9 +13,6 @@ provider "aws" {
 
 module "ec2_instance" {
   source  = "./ec2"
-
-  // Pass variables to EC2 module
-  instance_type = var.instance_type
   }
 
 
